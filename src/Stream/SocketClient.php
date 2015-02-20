@@ -47,7 +47,7 @@ use Fabiang\Xmpp\Util\ErrorHandler;
 class SocketClient
 {
 
-    const BUFFER_LENGTH = 4096;
+    const BUFFER_LENGTH = 8192;
 
     /**
      * Resource.
